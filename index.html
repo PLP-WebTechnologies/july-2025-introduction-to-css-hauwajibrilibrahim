@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Box Model Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <h1>Welcome to CSS Box Model Basics</h1>
+    <p>Learn how margin, padding, and borders shape every element on a web page.</p>
+  </header>
+
+  <nav class="navigation">
+    <ul>
+      <li><a href="#intro">Introduction</a></li>
+      <li><a href="#demo">Box Model</a></li>
+      <li><a href="#cards">Example Cards</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="intro" class="section">
+      <h2>What is the Box Model?</h2>
+      <p>The Box Model is a fundamental concept in CSS that describes the rectangular boxes generated for elements. It includes: content, padding, border, and margin.</p>
+    </section>
+
+    <section id="demo" class="section box-model-demo">
+      <h2>Box Model in Action</h2>
+      <div class="box">
+        <p>This box has margin, padding, and a border. Resize the screen to observe the spacing.</p>
+      </div>
+    </section>
+
+    <section id="cards" class="section cards-container">
+      <h2>Example Cards</h2>
+      <div class="card">
+        <h3>Card One</h3>
+        <p>Padding adds space inside the border. Margin adds space outside the border.</p>
+        <button>Learn More</button>
+      </div>
+      <div class="card">
+        <h3>Card Two</h3>
+        <p>Each card uses consistent spacing and styling thanks to the Box Model.</p>
+        <button>Get Started</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 CSS Basics. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
